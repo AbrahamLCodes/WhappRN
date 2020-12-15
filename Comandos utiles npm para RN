@@ -1,0 +1,24 @@
+Comandos npm usados en clase para React Native 
+
+*** Iniciar un proyecto React Native ***
+npx react-native init NombreProyecto
+
+*** Dependencias para componentes de código de React Native ***
+--- El AsyncStorage lo podemos usar para estar pasando datos, instalar siempre ----
+npm install @react-native-async-storage/async-storage
+
+--- Dependencias para la navegación y componentes útiles dentro de la App
+npm install @react-navigation/stack
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/material-top-tabs react-native-tab-view
+npm install react-native-vector-icons --save
+npm i react-native-floating-action --save
+npm install @react-navigation/native
+npm install --save styled-components
+npm install react-native-svg
+
+--- Iniciar el metro server ---
+npm start
+
+--- Correr la App en Android ---
+npx react-native run-android
